@@ -2,9 +2,9 @@
 # STEP 1: Your Identity (required)
 # ============================================================
 name: "Din Sopheak Panha"
-title: "Robotics and Automation"
+title: "Robotics and Automation Engineer"
 institution: "Institute of Technology of Cambodia"
-email: sopheak-panha.din@ecam.fr / e20210711@dtc1.itc.edu.kh
+email: dinsopheakpanha081122@gmail.com
 photo: Din Sopheak Panha Pic.jpg  # place your photo in images/
 
 # ============================================================
@@ -49,12 +49,10 @@ analytics:
 nav_pages:
   - name: about
   - name: publications
-  - name: talks
+  - name: projects
   - name: research
-  - name: software
-  - name: team
-  - name: teaching
-  - name: blog
+  - name: achievements
+  - name: tutoring
 
 # ============================================================
 # STEP 5: Publications (assets/ref.bib)
@@ -62,8 +60,8 @@ nav_pages:
 # Your name is bolded in the publication list. Write it exactly as it
 # appears in the rendered list ("Last, F. M."); list the longest form first.
 scholar:
-  last_name: Feynman
-  first_name: ["R. P.", "R."]
+  last_name: Din
+  first_name: ["S. P.", "S."]
   style: citesty
   locale: en
   source: /assets/
