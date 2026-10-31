@@ -14,9 +14,21 @@ permalink: /
 <a href="{{ '/research' | relative_url }}" class="chip">Path Tracking</a>
 </div>
 
-My research focuses on autonomous mobile robots, with particular emphasis on navigation and path tracking, validated both in simulation and on physical hardware. In collaboration with a teammate, I developed a fully autonomous indoor food delivery robot based on ROS 2 and the Nav2 navigation framework. Independently, I developed a path tracking algorithm for a swerve-drive robot, using ROS 2 and a 3D LiDAR with FAST-LIO2 for localization.
+My research is on autonomous mobile robots, mainly navigation and path tracking, tested both in simulation and on real robots. At the Dynamics and Control Laboratory (DCLab) at the Institute of Technology of Cambodia, I worked with a teammate to build a fully autonomous indoor food delivery robot using ROS 2 and Nav2, which completed every trial without collisions with a mean position error of about 0.26 m. We built it to explore and research robot navigation systems, inspired by Servi, the restaurant serving robot from Bear Robotics, now majority-owned by LG Electronics. With support from DCLab's Robocon 2025 team, I also designed and integrated a lookahead-based path tracking system for a swerve-drive robot, using ROS 2 and a 3D LiDAR with FAST-LIO2 for localization. I chose this approach because simple PID path tracking on a swerve-drive robot needs separate controllers for x, y and heading, and their gains often have to be retuned for different paths and speeds. In Robocon, our team used PID and had to tune it many times. With the lookahead-based system, the robot followed square, circle and triangle paths with RMS errors between 0.77 and 1.09 cm, using one fixed set of parameters.
 
-My work also extends to robotic manipulation. During an exchange semester in France and in a laboratory in Cambodia, I worked on robot arm projects, including face tracking control of a robot arm using dlib. In industrial automation, I have experience with ABB industrial robot arms, PLCs and HMIs, including a pick-and-place task with an ABB robot arm and a conveyor-based sorting system controlled by a PLC and HMI.
+I have also worked on robot arms, during my exchange semester in France and in a lab in Cambodia. One of these projects was controlling a robot arm with face tracking using dlib. In industrial automation, I have worked with ABB robot arms, PLCs and HMIs, including a pick-and-place task with an ABB arm and a conveyor sorting system controlled by a PLC and HMI.
+
+I am now working on an independent research project on teleoperated mobile robots under communication delay, in simulation with ROS 2 and Gazebo. Delay has been a real problem for me since I joined Robocon, where our robot lost connection during the competition and could not perform well. I am also interested in teleoperation because it lets a human and a mobile robot work together to do tasks that neither could do well alone. To deal with this problem, I found a paper that motivated me and gave me ideas on how to approach it: "Collision Avoidance with the Novel Advanced Shared Smooth Control in Teleoperated Mobile Robot Vehicles" (Electronics, 2026). Thanks to Dr. Hyun-Rok Cha and his team at KITECH for this work.
+
+## Current work
+
+<div class="section-card" markdown="0">
+<ul>
+<li><b>Teleoperation under delay:</b> shared control for teleoperated mobile robots when there is communication delay, in simulation with ROS 2, Gazebo and a 3D LiDAR.</li>
+<li><b>Self-driving perception and planning:</b> detecting vehicles and pedestrians with a 3D LiDAR, a depth camera and YOLO, and using a learning-based path planner to avoid them, in ROS 2 and Gazebo.</li>
+<li><b>Regenerative braking:</b> building vehicle dynamics models in MATLAB, checked against a Project Chrono car model, for an MPC-based regenerative braking controller.</li>
+</ul>
+</div>
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
 {% if selected contains "pub-entry" %}
@@ -41,4 +53,6 @@ My work also extends to robotic manipulation. During an exchange semester in Fra
 
 ## About me
 
-I am a graduate of the Department of Industrial and Mechanical Engineering at the Institute of Technology of Cambodia, where I completed the Engineer's Degree in Robotics and Automation Engineering in 2026 through the ECAM Engineering international double degree program, delivered by ITC and ECAM LaSalle (France). My thesis focused on the development of an autonomous indoor food delivery robot. In addition to my research, I have worked as a robotics tutor at Seksaa Tech Academy and STEAMING Cambodia. I am currently seeking a Master's position in Korea in the field of autonomous mobile robots and teleoperation.
+I am a 2026 graduate of the Institute of Technology of Cambodia, with an Engineer's Degree in Robotics and Automation Engineering from the ECAM Engineering double degree program run by ITC and ECAM LaSalle (France). I have been a member of the Dynamics and Control Laboratory (DCLab) since 2023, where I did my thesis. I joined Robocon in 2024 as an electronics team member and led DCLab's Robocon team in 2025.
+
+I am now looking for a Master's position in Korea in autonomous mobile robots and teleoperation
