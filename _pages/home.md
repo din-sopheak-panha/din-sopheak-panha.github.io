@@ -24,9 +24,7 @@ I am now working on an independent research project on teleoperated mobile robot
 
 <div class="section-card" markdown="0">
 <ul>
-<li><b>Teleoperation under delay:</b> shared control for teleoperated mobile robots when there is communication delay, in simulation with ROS 2, Gazebo and a 3D LiDAR.</li>
-<li><b>Self-driving perception and planning:</b> detecting vehicles and pedestrians with a 3D LiDAR, a depth camera and YOLO, and using a learning-based path planner to avoid them, in ROS 2 and Gazebo.</li>
-<li><b>Regenerative braking:</b> building vehicle dynamics models in MATLAB, checked against a Project Chrono car model, for an MPC-based regenerative braking controller.</li>
+<li><b>Teleoperation under delay:</b> an independent research project on shared control for teleoperated mobile robots under communication delay, in simulation with ROS 2, Gazebo and a 3D LiDAR.</li>
 </ul>
 </div>
 
