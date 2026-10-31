@@ -28,6 +28,17 @@ My work also extends to robotic manipulation. During an exchange semester in Fra
 </div>
 {% endif %}
 
+## Achievements
+
+<div class="section-card" markdown="0">
+<ul>
+<li>Cumulative GPA 3.5 / 4.0, Institute of Technology of Cambodia, with 4.0 / 4.0 in academic year 2023-2024</li>
+<li>Robocon 2025, Team Leader</li>
+<li>Robocon 2024, Electronics Team Member</li>
+</ul>
+<p style="margin: var(--space-4) 0 0;"><a href="{{ '/achievements' | relative_url }}">All achievements &rarr;</a></p>
+</div>
+
 ## About me
 
 I am a graduate of the Department of Industrial and Mechanical Engineering at the Institute of Technology of Cambodia, where I completed the Engineer's Degree in Robotics and Automation Engineering in 2026 through the ECAM Engineering international double degree program, delivered by ITC and ECAM LaSalle (France). My thesis focused on the development of an autonomous indoor food delivery robot. In addition to my research, I have worked as a robotics tutor at Seksaa Tech Academy and STEAMING Cambodia. I am currently seeking a Master's position in Korea in the field of autonomous mobile robots and teleoperation.
