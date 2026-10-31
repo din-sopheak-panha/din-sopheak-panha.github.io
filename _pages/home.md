@@ -8,27 +8,15 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ '/research' | relative_url }}" class="chip">Quantum Electrodynamics</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Path Integrals</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Superfluidity</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Parton Model</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Quantum Computing</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Nanotechnology</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Autonomous Mobile Robots</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Robot Arms</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Teleoperation</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Path Tracking</a>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+My research focuses on autonomous mobile robots, with particular emphasis on navigation and path tracking, validated both in simulation and on physical hardware. In collaboration with a teammate, I developed a fully autonomous indoor food delivery robot based on ROS 2 and the Nav2 navigation framework. Independently, I developed a path tracking algorithm for a swerve-drive robot, using ROS 2 and a 3D LiDAR with FAST-LIO2 for localization.
 
-<div class="callout callout-success" markdown="0">
-<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
-</div>
-
-<div class="banner-frame" markdown="0">
-<img src="{{ '/images/banner.webp' | relative_url }}" alt="Feynman diagrams" width="1400" height="449" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
-</div>
+My work also extends to robotic manipulation. During an exchange semester in France and in a laboratory in Cambodia, I worked on robot arm projects, including face tracking control of a robot arm using dlib. In industrial automation, I have experience with ABB industrial robot arms, PLCs and HMIs, including a pick-and-place task with an ABB robot arm and a conveyor-based sorting system controlled by a PLC and HMI.
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
 {% if selected contains "pub-entry" %}
@@ -42,7 +30,4 @@ Research in theoretical physics helps us to make predictions about how the unive
 
 ## About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+I am a graduate of the Department of Industrial and Mechanical Engineering at the Institute of Technology of Cambodia, where I completed the Engineer's Degree in Robotics and Automation Engineering in 2026 through the ECAM Engineering international double degree program, delivered by ITC and ECAM LaSalle (France). My thesis focused on the development of an autonomous indoor food delivery robot. In addition to my research, I have worked as a robotics tutor at Seksaa Tech Academy and STEAMING Cambodia. I am currently seeking a Master's position in Korea in the field of autonomous mobile robots and teleoperation.
