@@ -6,8 +6,6 @@ permalink: /experiences/
 
 # Experiences
 
-## Work Experience
-
 <div class="section-card" markdown="0">
 <h3>STEAMING Cambodia</h3>
 <p><b>Date:</b> Nov 2026 to Feb 2027</p>
@@ -74,15 +72,16 @@ permalink: /experiences/
 ## Robocon
 
 <div class="section-card" markdown="0">
-<h3>ABU Robocon 2025, ITC01 Team (DCLab, ITC)</h3>
+<h3>ABU Robocon 2025, ITC01 Team (GEE Lab, ITC)</h3>
 <p><b>Date:</b> 2025</p>
 <p><b>Position:</b> Team Leader</p>
 <p><b>Contribution:</b></p>
 <ul>
 <li>Led the team for a two-robot project, coordinating the mechanical, electronics and software teams, and directed robot design, system integration and testing.</li>
+<li>Programmed both robots together with a teammate.</li>
 <li>Assisted in designing DRV-based motor driver PCBs, main controller shield boards for both robots, and a pneumatic control PCB for solenoid valve actuation, and contributed to the integration and testing of the custom CAN-based electronics system.</li>
 </ul>
-<p><b>Result:</b> Both robots were competition-ready within the 800 mm footprint and 50 kg weight constraints.</p>
+<p><b>Result:</b> Both robots were ready to play within the 800 mm footprint and 50 kg weight constraints. The first robot could dribble, block, pass and shoot, and the second robot could shoot, block and receive.</p>
 </div>
 
 <div class="section-card" markdown="0">
