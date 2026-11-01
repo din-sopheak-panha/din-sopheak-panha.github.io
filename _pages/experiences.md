@@ -17,7 +17,7 @@ permalink: /experiences/
 <li>Teaching micro:bit programming to young students in the Micro:Bit Innovators Program, and guiding them through projects such as a smart parking barrier, a water tank level alert, a smart plant helper and a manually controlled robot.</li>
 <li>Teaching a Robotics and IoT class with the ESP32 for high school seniors and university students, and guiding them through projects such as a remote-controlled differential-drive robot and a solar tracking system.</li>
 </ul>
-<p><b>Result:</b> Built the 12-session Micro:Bit Innovators Program, including all course documents and the promotional video.</p>
+<p><b>Result:</b> Built the 12-session Micro:Bit Innovators Program, including all course documents and the promotional video, and gained experience teaching Robotics and IoT with the ESP32 to high school seniors and university students.</p>
 </div>
 
 <div class="section-card" markdown="0">
