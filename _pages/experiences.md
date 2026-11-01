@@ -55,7 +55,7 @@ permalink: /experiences/
 <li>Integrated ROS 2 with STM32 microcontrollers to read encoder and sensor data, and configured MKS stepper motor drivers for NEMA17 and NEMA23 motors over CAN bus.</li>
 <li>Managed the full electrical and electronic system, balancing performance with low power consumption, and trained a custom mushroom detection dataset.</li>
 </ul>
-<p><b>Result:</b> Delivered a functional prototype that can automatically identify and harvest mushrooms.</p>
+<p><b>Result:</b> Delivered a working prototype in which the gantry and SCARA arm move and operate as designed. Automatic mushroom harvesting is not yet complete.</p>
 </div>
 
 <div class="section-card" markdown="0">
