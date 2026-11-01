@@ -9,59 +9,89 @@ permalink: /experiences/
 ## Work Experience
 
 <div class="section-card" markdown="0">
-<h3>Relay Protection Testing Engineer, SNKRP</h3>
-<p class="text-muted">Aug 2026 to Oct 2026</p>
+<h3>STEAMING Cambodia</h3>
+<p><b>Date:</b> Nov 2026 to Feb 2027</p>
+<p><b>Position:</b> Robotics Tutor</p>
+<p><b>Contribution:</b></p>
 <ul>
-<li>Gained hands-on knowledge of power grid systems and relay protection at substation level, working directly with EDC. Performed both on-site and provincial fieldwork.</li>
-<li>Worked with NR and Siemens relay and protection panels covering 22kV feeders, incoming/outgoing PT, bus coupler, bus riser, and 230kV transformer, busbar and line protection. Able to read and interpret AutoCAD drawings from multiple manufacturers, including NR, XD, HEIG, and CCPG.</li>
-<li>Tested relay protection systems using the OMICRON CMC 356 to verify correct relay operation, and prepared test reports for EDC.</li>
+<li>Teaching micro:bit programming to young students in the Micro:Bit Innovators Program, and guiding them through projects such as a smart parking barrier, a water tank level alert, a smart plant helper and a manually controlled robot.</li>
+<li>Teaching a Robotics and IoT class with the ESP32 for high school seniors and university students, and guiding them through projects such as a remote-controlled differential-drive robot and a solar tracking system.</li>
 </ul>
+<p><b>Result:</b> Built the 12-session Micro:Bit Innovators Program, including all course documents and the promotional video.</p>
 </div>
 
 <div class="section-card" markdown="0">
-<h3>Robotics Tutor, SeksaaTech Academy</h3>
-<p class="text-muted">Jun 2026 to Aug 2026</p>
+<h3>SNKRP</h3>
+<p><b>Date:</b> Aug 2026 to Oct 2026</p>
+<p><b>Position:</b> Relay Protection Testing Engineer</p>
+<p><b>Contribution:</b></p>
+<ul>
+<li>Worked on power grid systems and relay protection at substation level with EDC, both on-site and in the provinces.</li>
+<li>Worked with NR and Siemens relay and protection panels covering 22kV feeders, incoming/outgoing PT, bus coupler, bus riser, and 230kV transformer, busbar and line protection, and read AutoCAD drawings from NR, XD, HEIG and CCPG.</li>
+<li>Supported engineers in testing relay protection systems using the OMICRON CMC 356.</li>
+</ul>
+<p><b>Result:</b> Helped verify correct relay operation and prepared test reports for EDC.</p>
+</div>
+
+<div class="section-card" markdown="0">
+<h3>SeksaaTech Academy</h3>
+<p><b>Date:</b> Jun 2026 to Aug 2026</p>
+<p><b>Position:</b> Robotics Tutor</p>
+<p><b>Contribution:</b></p>
 <ul>
 <li>Taught electronics and micro:bit programming, simplifying complex technical concepts into engaging lessons for young learners.</li>
-<li>Created video lessons and learning materials on micro:bit programming and Tinkercad circuit design, combining simulation with hands-on experiments to help students learn electronics and programming at their own pace.</li>
+<li>Created video lessons and learning materials on micro:bit programming and Tinkercad circuit design, combining simulation with hands-on experiments.</li>
 </ul>
+<p><b>Result:</b> Students could learn electronics and programming at their own pace with the video lessons and materials.</p>
 </div>
 
 <div class="section-card" markdown="0">
-<h3>Robotics Engineer (part-time), Happy Sprouts</h3>
-<p class="text-muted">Sep 2025 to Jul 2026</p>
+<h3>Happy Sprouts</h3>
+<p><b>Date:</b> Sep 2025 to Jul 2026</p>
+<p><b>Position:</b> Robotics Engineer (part-time)</p>
+<p><b>Contribution:</b></p>
 <ul>
-<li>Designed and programmed the electrical system for a 6-DOF robot arm, combining 2 DOF for horizontal and vertical linear movement with a 4 DOF SCARA arm mounted on the linear axes, delivering a functional prototype.</li>
-<li>Integrated ROS 2 with STM32 microcontrollers to read encoder and sensor data across the system. Configured MKS stepper motor drivers for NEMA17 and NEMA23 motors, using CAN bus for reliable inter-device communication.</li>
-<li>Managed the full electrical and electronic system, selecting and troubleshooting components to balance performance with low power consumption. Trained a custom mushroom detection dataset, enabling the robot arm to automatically identify and harvest mushrooms.</li>
+<li>Designed and programmed the electrical system for a 6-DOF robot arm, combining 2 DOF for horizontal and vertical linear movement with a 4 DOF SCARA arm mounted on the linear axes.</li>
+<li>Integrated ROS 2 with STM32 microcontrollers to read encoder and sensor data, and configured MKS stepper motor drivers for NEMA17 and NEMA23 motors over CAN bus.</li>
+<li>Managed the full electrical and electronic system, balancing performance with low power consumption, and trained a custom mushroom detection dataset.</li>
 </ul>
+<p><b>Result:</b> Delivered a functional prototype that can automatically identify and harvest mushrooms.</p>
 </div>
 
 <div class="section-card" markdown="0">
-<h3>Engineering Intern, Startec Dynamics (Calypso Motors)</h3>
-<p class="text-muted">Jun 2025 to Sep 2025</p>
+<h3>Startec Dynamics (Calypso Motors)</h3>
+<p><b>Date:</b> Jun 2025 to Sep 2025</p>
+<p><b>Position:</b> Engineering Intern</p>
+<p><b>Contribution:</b></p>
 <ul>
-<li>Designed and built a motorbike status tracking system using GPS, an IMU, and an ESP32 microcontroller. Used the GPS module to track each motorbike's real-time location, and the IMU sensors to monitor motion states such as starting, stopping, and detecting possible accidents through changes in movement.</li>
-<li>Assisted senior engineers in assembling motorbike parts as needed, gaining hands-on knowledge of motorbike assembly and how the mechanical components fit and work together.</li>
-<li>Deployed code written by the development team onto the motorbikes, then tested it and reported the results back to the technical and bike development teams. Repeated this test and feedback cycle to help identify and resolve bugs until each issue was solved.</li>
+<li>Designed and built a motorbike status tracking system using GPS, an IMU and an ESP32, tracking real-time location and detecting starting, stopping and possible accidents from changes in movement.</li>
+<li>Assisted senior engineers in assembling motorbike parts.</li>
+<li>Deployed code from the development team onto the motorbikes, tested it, and reported the results back to the technical and bike development teams.</li>
 </ul>
+<p><b>Result:</b> Through repeated test and feedback cycles, helped identify and resolve bugs until each issue was solved.</p>
 </div>
 
 ## Robocon
 
 <div class="section-card" markdown="0">
-<h3>Team Leader, ITC01, ABU Robocon 2025</h3>
-<p class="text-muted">DCLab, Institute of Technology of Cambodia · 2025</p>
+<h3>ABU Robocon 2025, ITC01 Team (DCLab, ITC)</h3>
+<p><b>Date:</b> 2025</p>
+<p><b>Position:</b> Team Leader</p>
+<p><b>Contribution:</b></p>
 <ul>
-<li>Led the ITC01 team for a two-robot ABU Robocon 2025 project, coordinating the mechanical, electronics, and software teams. Directed robot design, system integration, and testing to ensure both robots were competition-ready within the 800 mm footprint and 50 kg weight constraints.</li>
-<li>Assisted in designing DRV-based motor driver PCBs, main controller shield boards for both robots, and a pneumatic control PCB for solenoid valve actuation. Contributed to the integration and testing of the robots' custom CAN-based electronics system.</li>
+<li>Led the team for a two-robot project, coordinating the mechanical, electronics and software teams, and directed robot design, system integration and testing.</li>
+<li>Assisted in designing DRV-based motor driver PCBs, main controller shield boards for both robots, and a pneumatic control PCB for solenoid valve actuation, and contributed to the integration and testing of the custom CAN-based electronics system.</li>
 </ul>
+<p><b>Result:</b> Both robots were competition-ready within the 800 mm footprint and 50 kg weight constraints.</p>
 </div>
 
 <div class="section-card" markdown="0">
-<h3>Electronics Team Member, ITC02, Robocon 2024</h3>
-<p class="text-muted">DCLab, Institute of Technology of Cambodia · 2024</p>
+<h3>Robocon 2024, ITC02 Team (DCLab, ITC)</h3>
+<p><b>Date:</b> 2024</p>
+<p><b>Position:</b> Electronics Team Member</p>
+<p><b>Contribution:</b></p>
 <ul>
-<li>As a junior member of the ITC02 team at DCLab, assisted with PCB assembly, soldering, robot wiring, and hardware integration, supporting the development and testing of the robots' electrical systems.</li>
+<li>Assisted with PCB assembly, soldering, robot wiring and hardware integration.</li>
 </ul>
+<p><b>Result:</b> Supported the development and testing of the robots' electrical systems for the competition.</p>
 </div>
