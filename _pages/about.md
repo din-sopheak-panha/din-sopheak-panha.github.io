@@ -18,6 +18,7 @@ permalink: /about/
 {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar">{% include icon.html name="google-scholar" %}</a>{% endif %}
 {% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}" class="icon-link" title="GitHub" aria-label="GitHub">{% include icon.html name="github" %}</a>{% endif %}
 {% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}" class="icon-link" title="ResearchGate" aria-label="ResearchGate">{% include icon.html name="researchgate" %}</a>{% endif %}
+{% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn" aria-label="LinkedIn">{% include icon.html name="linkedin" %}</a>{% endif %}
 </div>
 {% if site.data.pi[0].education %}
 <ul style="margin-top: var(--space-4);">
@@ -30,35 +31,10 @@ permalink: /about/
 </div>
 </div>
 
-{% if site.data.grants %}
-<div class="section-card">
-<h3>Grants</h3>
+<div class="section-card" markdown="0">
+<h3>Laboratories</h3>
 <ul>
-{% for grant in site.data.grants %}
-<li>{{ grant.name }}</li>
-{% endfor %}
+<li><b>Dynamics and Control Laboratory (DCLab)</b>, Institute of Technology of Cambodia, member since 2023. Did my thesis on the indoor food delivery robot and was part of the ITC02 team in Robocon 2024.</li>
+<li><b>GEE Lab (Electronics Engineering Lab)</b>, Institute of Technology of Cambodia, 2025. Led the ITC01 team in ABU Robocon 2025.</li>
 </ul>
 </div>
-{% endif %}
-
-{% if site.data.awards %}
-<div class="section-card">
-<h3>Awards</h3>
-<ul>
-{% for award in site.data.awards %}
-<li>{{ award.name | replace: "-","&#8211;" }}</li>
-{% endfor %}
-</ul>
-</div>
-{% endif %}
-
-{% if site.data.funders %}
-<div class="section-card">
-<h4>Sponsors</h4>
-<div class="sponsor-logos" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--space-6);">
-{% for funder in site.data.funders %}
-<a href="{{ funder.url }}" target="_blank"><img src="{{ funder.image | prepend: '/images/' | relative_url }}" alt="Funder logo" style="max-height: 80px; max-width: 200px; border-radius: 0;" loading="lazy"></a>
-{% endfor %}
-</div>
-</div>
-{% endif %}
