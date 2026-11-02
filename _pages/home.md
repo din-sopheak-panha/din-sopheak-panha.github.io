@@ -17,8 +17,8 @@ permalink: /
 <span style="display: block; font-size: 0.8125rem; margin-top: var(--space-2);">Robot Arms</span>
 </a>
 <a href="{{ '/projects' | relative_url }}" style="text-align: center; text-decoration: none;">
-<img src="{{ '/images/teleoperation.png' | relative_url }}" alt="Teleoperation" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px;" loading="lazy">
-<span style="display: block; font-size: 0.8125rem; margin-top: var(--space-2);">Teleoperation</span>
+<img src="{{ '/images/teleoperation.png' | relative_url }}" alt="Face tracking" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px;" loading="lazy">
+<span style="display: block; font-size: 0.8125rem; margin-top: var(--space-2);">Face Tracking</span>
 </a>
 <a href="{{ '/projects' | relative_url }}" style="text-align: center; text-decoration: none;">
 <img src="https://dinsopheakpanhaportfolio.netlify.app/materials/swerve-drive-hero.png" alt="Swerve-drive robot" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px;" loading="lazy">
