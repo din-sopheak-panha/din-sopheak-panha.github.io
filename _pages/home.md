@@ -13,11 +13,11 @@ permalink: /
 <span style="display: block; font-size: 0.8125rem; margin-top: var(--space-2);">Autonomous Mobile Robots</span>
 </a>
 <a href="{{ '/projects' | relative_url }}" style="text-align: center; text-decoration: none;">
-<img src="{{ '/images/robot-arm.jpg' | relative_url }}" alt="Robot arm" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px;" loading="lazy">
+<img src="{{ '/images/robot-arm.png' | relative_url }}" alt="Robot arm" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px;" loading="lazy">
 <span style="display: block; font-size: 0.8125rem; margin-top: var(--space-2);">Robot Arms</span>
 </a>
 <a href="{{ '/projects' | relative_url }}" style="text-align: center; text-decoration: none;">
-<img src="{{ '/images/teleoperation.jpg' | relative_url }}" alt="Teleoperation" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px;" loading="lazy">
+<img src="{{ '/images/teleoperation.png' | relative_url }}" alt="Teleoperation" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px;" loading="lazy">
 <span style="display: block; font-size: 0.8125rem; margin-top: var(--space-2);">Teleoperation</span>
 </a>
 <a href="{{ '/projects' | relative_url }}" style="text-align: center; text-decoration: none;">
