@@ -25,6 +25,7 @@ I am now working on an independent research project on teleoperated mobile robot
 <div class="section-card" markdown="0">
 <ul>
 <li><b>Teleoperation under delay:</b> an independent research project on shared control for teleoperated mobile robots under communication delay, in simulation with ROS 2, Gazebo and a 3D LiDAR.</li>
+<li><b>Solar tracking system:</b> building a solar tracking system and a management system with the ESP32, supported by STEAMING Cambodia.</li>
 </ul>
 </div>
 
