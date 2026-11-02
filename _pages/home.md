@@ -7,11 +7,23 @@ permalink: /
 <h1 class="home-hero">{{ site.name }}</h1>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
-<div class="chip-container" markdown="0">
-<a href="{{ '/research' | relative_url }}" class="chip">Autonomous Mobile Robots</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Robot Arms</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Teleoperation</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Path Tracking</a>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: var(--space-3); margin-bottom: var(--space-6);" markdown="0">
+<a href="{{ '/projects' | relative_url }}" style="text-align: center; text-decoration: none;">
+<img src="https://dinsopheakpanhaportfolio.netlify.app/materials/indoor-delivery-hero.jpg" alt="Autonomous indoor delivery robot" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px;" loading="lazy">
+<span style="display: block; font-size: 0.8125rem; margin-top: var(--space-2);">Autonomous Mobile Robots</span>
+</a>
+<a href="{{ '/projects' | relative_url }}" style="text-align: center; text-decoration: none;">
+<img src="{{ '/images/robot-arm.jpg' | relative_url }}" alt="Robot arm" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px;" loading="lazy">
+<span style="display: block; font-size: 0.8125rem; margin-top: var(--space-2);">Robot Arms</span>
+</a>
+<a href="{{ '/projects' | relative_url }}" style="text-align: center; text-decoration: none;">
+<img src="{{ '/images/teleoperation.jpg' | relative_url }}" alt="Teleoperation" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px;" loading="lazy">
+<span style="display: block; font-size: 0.8125rem; margin-top: var(--space-2);">Teleoperation</span>
+</a>
+<a href="{{ '/projects' | relative_url }}" style="text-align: center; text-decoration: none;">
+<img src="https://dinsopheakpanhaportfolio.netlify.app/materials/swerve-drive-hero.png" alt="Swerve-drive robot" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px;" loading="lazy">
+<span style="display: block; font-size: 0.8125rem; margin-top: var(--space-2);">Path Tracking</span>
+</a>
 </div>
 
 My research is on autonomous mobile robots, mainly navigation and path tracking, tested both in simulation and on real robots. At the Dynamics and Control Laboratory (DCLab) at the Institute of Technology of Cambodia, I worked with a teammate to build a fully autonomous indoor food delivery robot using ROS 2 and Nav2, which completed every trial without collisions with a mean position error of about 0.26 m. We built it to explore and research robot navigation systems, inspired by Servi, the restaurant serving robot from Bear Robotics, now majority-owned by LG Electronics. With support from DCLab's Robocon 2025 team, I also designed and integrated a lookahead-based path tracking system for a swerve-drive robot, using ROS 2 and a 3D LiDAR with FAST-LIO2 for localization. I chose this approach because simple PID path tracking on a swerve-drive robot needs separate controllers for x, y and heading, and their gains often have to be retuned for different paths and speeds. In Robocon, our team used PID and had to tune it many times. With the lookahead-based system, the robot followed square, circle and triangle paths with RMS errors between 0.77 and 1.09 cm, using one fixed set of parameters.
