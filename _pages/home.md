@@ -64,6 +64,6 @@ I am now working on an independent research project on teleoperated mobile robot
 
 ## About me
 
-I am a 2026 graduate of the Institute of Technology of Cambodia, with an Engineer's Degree in Robotics and Automation Engineering from the ECAM Engineering double degree program run by ITC and ECAM LaSalle (France). I have been a member of the Dynamics and Control Laboratory (DCLab) since 2023, where I did my thesis. I joined Robocon in 2024 as an electronics team member and led DCLab's Robocon team in 2025.
+I am a 2026 graduate of the Institute of Technology of Cambodia, with an Engineer's Degree in Robotics and Automation Engineering from the ECAM Engineering double degree program run by ITC and ECAM LaSalle (France). I have been a member of the Dynamics and Control Laboratory (DCLab) since 2023, where I did my thesis. I joined Robocon in 2024 with DCLab's ITC02 team as an electronics team member, and in 2025 I led GEE Lab's ITC01 team while remaining a DCLab member.
 
-I am now looking for a Master's position in Korea in autonomous mobile robots and teleoperation
+I am now looking for a Master's position in Korea in autonomous mobile robots and teleoperation.
