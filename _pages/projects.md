@@ -6,16 +6,45 @@ permalink: /projects/
 
 # Projects
 
+## Active Projects
+
+<div class="section-card" markdown="0">
+<h3>Shared Control Teleoperation of a Mobile Robot under Communication Delay</h3>
+<p class="text-muted">Independent research</p>
+<p>A mobile robot driven remotely by a human, where the robot helps avoid collisions while the commands and sensor data arrive late. The project builds on the paper "Collision Avoidance with the Novel Advanced Shared Smooth Control in Teleoperated Mobile Robot Vehicles" (Electronics, 2026) and extends its shared control approach to handle delay.</p>
+<p><b>Status:</b> In progress</p>
+<p><b>Date:</b> 2026</p>
+<p><b>Hardware:</b> Simulation only, driven with a PS4 controller</p>
+<p><b>Software:</b> ROS 2, Gazebo, simulated 3D LiDAR</p>
+<p><b>Results:</b> Not yet, project in progress</p>
+</div>
+
+<div class="section-card" markdown="0">
+<h3>DIY Dual-Axis Solar Tracker with Energy Monitoring</h3>
+<p class="text-muted">STEAMING Cambodia</p>
+<p>A small solar panel that turns to face the sun on two axes. Four light sensors compare the light from each side and two servo motors move the panel toward the brighter side, while the ESP32 measures the panel's voltage, current and power and shows them on a web dashboard.</p>
+<p><b>Status:</b> In progress</p>
+<p><b>Date:</b> 2026</p>
+<p><b>Hardware:</b> ESP32, 2 MG996R servo motors (pan and tilt), 4 LDR light sensors with 10 kΩ resistors, small 6 V solar panel, INA219 current and voltage sensor, TP4056 charger with an 18650 battery, 5 V buck converter for the servos</p>
+<p><b>Software:</b> Arduino IDE (C++), ESP32Servo library, Adafruit INA219 library, ESP32 Wi-Fi web dashboard</p>
+<p><b>Results:</b> Not yet, project in progress</p>
+</div>
+
 ## Mobile Robots
 
 <div class="section-card" markdown="0">
 <h3>Lookahead-Based Path Tracking for a Three-Wheel Swerve-Drive Robot</h3>
-<p class="text-muted">DCLab, Institute of Technology of Cambodia · 2025 · ROS 2, C++, Livox Mid-360, FAST-LIO2, CAN bus</p>
-<p>PID path tracking on a swerve-drive robot needs separate controllers for x, y and heading, and the gains have to be retuned for different paths. I designed and integrated a lookahead-based path tracking system that projects the robot pose onto the path, looks ahead a fixed distance and computes the velocity command directly, with speed scheduled from path curvature. It runs at 100 Hz, sends commands to three motor drivers over CAN bus, and uses the Livox Mid-360 with FAST-LIO2 for localization.</p>
+<p class="text-muted">DCLab</p>
+<p>Designed and integrated a lookahead-based path tracking system for a three-wheel swerve-drive robot, so it can follow different paths with one set of parameters instead of retuning PID for x, y and heading.</p>
+<p><b>Status:</b> Done (paper under review at RAAI 2026)</p>
+<p><b>Date:</b> 2025</p>
+<p><b>Hardware:</b> Three-wheel swerve-drive robot with brushed DC drive and steering motors, three smart DC motor drivers over CAN bus, Livox Mid-360 3D LiDAR with built-in IMU, onboard laptop (MSI Cyborg 15), 12 V and 24 V LiPo batteries</p>
+<p><b>Software:</b> Ubuntu 22.04, ROS 2 Humble, C++, FAST-LIO2, RViz2</p>
+<p><b>Results:</b></p>
 <ul>
 <li>RMS cross-track error of 0.77, 0.80, 1.09 and 2.89 cm on square, circle, triangle and star paths, at up to 1.5 m/s.</li>
+<li>RMS heading error below 0.22 rad on the square, circle and triangle paths.</li>
 <li>One fixed set of parameters for all four paths, with no retuning.</li>
-<li>Paper under review at RAAI 2026.</li>
 </ul>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
 <img src="https://dinsopheakpanhaportfolio.netlify.app/materials/swerve-drive-hero.png" alt="Swerve-drive robot" style="width: 100%; border-radius: 8px;" loading="lazy">
@@ -29,11 +58,17 @@ permalink: /projects/
 
 <div class="section-card" markdown="0">
 <h3>Autonomous Indoor Food Delivery Robot (Thesis)</h3>
-<p class="text-muted">DCLab, Institute of Technology of Cambodia · 2025 to 2026 · ROS 2 Humble, Nav2, SLAM Toolbox, AMCL, Jetson Orin Nano, RealSense D435</p>
-<p>Together with a teammate, I built a differential-drive delivery robot from scratch, including the electrical system and a CANopen motor drive stack, and set up Nav2 so the robot maps a classroom, localizes, drives to a goal and replans around obstacles that were not in the map. A keepout mask stops the planner from routing under tables, and a depth camera detects obstacles added after mapping.</p>
+<p class="text-muted">DCLab</p>
+<p>Built a differential-drive delivery robot from scratch together with Te Tikea. The robot maps a classroom, localizes, drives to a goal and replans around obstacles that were not in the map.</p>
+<p><b>Status:</b> Done (thesis defended)</p>
+<p><b>Date:</b> 2026</p>
+<p><b>Hardware:</b> Differential-drive base with hub servo motors, ZLAC8015D motor driver (CANopen), NVIDIA Jetson Orin Nano Super, RPLIDAR A1, Intel RealSense D435, Yahboom IMU, LiPo 6S 10 Ah battery, 7-inch display</p>
+<p><b>Software:</b> Ubuntu 22.04, ROS 2 Humble, Nav2, SLAM Toolbox, AMCL, SMAC 2D planner, Vector Pursuit controller, Gazebo Classic</p>
+<p><b>Results:</b></p>
 <ul>
-<li>10 of 10 trials reached the goal with zero collisions.</li>
-<li>Mean physical position error of 0.256 m.</li>
+<li>Reached the goal in all 10 trials (5 without and 5 with added obstacles), with no collisions.</li>
+<li>Mean position error of 0.256 m without obstacles and 0.260 m with obstacles.</li>
+<li>Mean heading error of 11.56° without obstacles and 12.48° with obstacles.</li>
 </ul>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
 <img src="https://dinsopheakpanhaportfolio.netlify.app/materials/indoor-delivery-hero.jpg" alt="Indoor delivery robot" style="width: 100%; border-radius: 8px;" loading="lazy">
@@ -51,10 +86,16 @@ permalink: /projects/
 
 <div class="section-card" markdown="0">
 <h3>Face Tracking Teleoperation with SO-ARM101</h3>
-<p class="text-muted">Exchange semester, France · 2025 · Python, OpenCV, dlib</p>
-<p>Normal teleoperation of the SO-ARM101 needs a second leader arm moved by hand. I led this project as Scrum Master and built a hands-free system where a single webcam and dlib facial landmarks control the arm: head yaw moves the base, head pitch moves the wrist, and mouth opening controls the gripper, at 60 Hz.</p>
+<p class="text-muted">Exchange semester, France</p>
+<p>Led the project as Scrum Master. A single webcam tracks the face to control the arm hands-free: head yaw moves the base, head pitch moves the wrist, and mouth opening controls the gripper.</p>
+<p><b>Status:</b> Done</p>
+<p><b>Date:</b> 2025</p>
+<p><b>Hardware:</b> SO-ARM101 6-DOF robot arm, Feetech STS3215 servos, webcam</p>
+<p><b>Software:</b> Ubuntu 22.04, Python, OpenCV, dlib</p>
+<p><b>Results:</b></p>
 <ul>
-<li>A deadband removes the ±2.0 jitter in raw head yaw and pitch, so the arm stays still when the head is still.</li>
+<li>Three joints (base, wrist and gripper) controlled by the face at 60 Hz.</li>
+<li>A deadband removes the ±2.0 jitter in head yaw and pitch, so the arm stays still when the head is still.</li>
 </ul>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
 <iframe src="https://www.youtube-nocookie.com/embed/ULV6JxhXbB4" title="Face tracking teleoperation with SO-ARM101" style="width: 100%; max-width: 315px; aspect-ratio: 9 / 16; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
@@ -64,9 +105,18 @@ permalink: /projects/
 ## Industrial Automation
 
 <div class="section-card" markdown="0">
-<h3>Pick-and-Place with an ABB Robot Arm</h3>
-<p class="text-muted">ABB industrial robot</p>
-<p>A programmed pick-and-place routine running on an ABB industrial robot arm.</p>
+<h3>Sequence Variation System with an ABB Robot Arm</h3>
+<p>The robot picks objects one by one from a 4x4 grid and places them at Place A and Place B in turn, in a continuous loop. After every Place B cycle, it sends a done signal to the conveyor PLC.</p>
+<p><b>Status:</b> Done</p>
+<p><b>Date:</b> 2026</p>
+<p><b>Hardware:</b> ABB industrial robot arm, vacuum gripper with a pressure sensor, conveyor controlled by a PLC</p>
+<p><b>Software:</b> ABB RobotStudio, RAPID</p>
+<p><b>Results:</b></p>
+<ul>
+<li>All 16 grid positions are calculated from one taught target with offsets of 50 mm per column and 40 mm per row, so only one pick point had to be taught.</li>
+<li>The robot alternates strictly between Place A and Place B every cycle, using the cycle counter (even or odd).</li>
+<li>Fixed a problem where the robot sometimes lifted before the vacuum had gripped the object, by waiting for the pressure sensor signal before moving.</li>
+</ul>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
 <iframe src="https://www.youtube-nocookie.com/embed/36Xstqjolxg" title="Industrial ABB Robot Arm - Pick and place" style="width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 </div>
@@ -74,8 +124,11 @@ permalink: /projects/
 
 <div class="section-card" markdown="0">
 <h3>Conveyor Sorting System with PLC and HMI</h3>
-<p class="text-muted">PLC, HMI</p>
 <p>A conveyor sorting system controlled by a PLC and operated from an HMI panel.</p>
+<p><b>Status:</b> Done</p>
+<p><b>Date:</b> 2026</p>
+<p><b>Hardware:</b> Conveyor, Siemens PLC, HMI panel</p>
+<p><b>Software:</b> Siemens TIA Portal V18</p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
 <iframe src="https://www.youtube-nocookie.com/embed/8rvLOJjhovw" title="Conveyor Sorting System with PLC and HMI" style="width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 </div>
