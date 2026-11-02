@@ -30,7 +30,7 @@ My research is on autonomous mobile robots, mainly navigation and path tracking,
 
 I have also worked on robot arms, during my exchange semester in France and in a lab in Cambodia. One of these projects was controlling a robot arm with face tracking using dlib. In industrial automation, I have worked with ABB robot arms, PLCs and HMIs, including a pick-and-place task with an ABB arm and a conveyor sorting system controlled by a PLC and HMI.
 
-I am now working on an independent research project on teleoperated mobile robots under communication delay, in simulation with ROS 2 and Gazebo. Delay has been a real problem for me since I joined Robocon, where our robot lost connection during the competition and could not perform well. I am also interested in teleoperation because it lets a human and a mobile robot work together to do tasks that neither could do well alone. To deal with this problem, I found a paper that motivated me and gave me ideas on how to approach it: "Collision Avoidance with the Novel Advanced Shared Smooth Control in Teleoperated Mobile Robot Vehicles" (Electronics, 2026). Thanks to Dr. Hyun-Rok Cha and his team at KITECH for this work.
+I am now working on an independent research project on teleoperated mobile robots under communication delay, in simulation with ROS 2 and Gazebo. Delay has been a real problem for me since I joined Robocon, where our robot lost connection during the competition and could not perform well. I am also interested in teleoperation because it is a form of human-robot collaboration, where a human and a mobile robot work together to do tasks that neither could do well alone. To deal with this problem, I found a paper that motivated me and gave me ideas on how to approach it: "Collision Avoidance with the Novel Advanced Shared Smooth Control in Teleoperated Mobile Robot Vehicles" (Electronics, 2026). Thanks to Dr. Hyun-Rok Cha and his team at KITECH for this work.
 
 ## Current work
 
@@ -66,4 +66,4 @@ I am now working on an independent research project on teleoperated mobile robot
 
 I am a 2026 graduate of the Institute of Technology of Cambodia, with an Engineer's Degree in Robotics and Automation Engineering from the ECAM Engineering double degree program run by ITC and ECAM LaSalle (France). I have been a member of the Dynamics and Control Laboratory (DCLab) since 2023, where I did my thesis. I joined Robocon in 2024 with DCLab's ITC02 team as an electronics team member, and in 2025 I led GEE Lab's ITC01 team while remaining a DCLab member.
 
-I am now looking for a Master's position in Korea in autonomous mobile robots and teleoperation.
+I am now looking for a Master's degree in AI Mobility in Korea, focusing on robot collaboration, autonomous mobile robots and teleoperation.
