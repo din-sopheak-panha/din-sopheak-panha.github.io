@@ -27,13 +27,14 @@ permalink: /
 </div>
 
 ## About me
-I am a robotics engineer working in the fields of autonomous mobile robots, path tracking and teleoperation. I received my Engineer’s Degree in Robotics and Automation Engineering from the Institute of Technology of Cambodia in 2026, through the ECAM Engineering double degree program with ECAM LaSalle (France).
+Hello! I am Din Sopheak Panha, a robotics engineer and a member of the Dynamics and Control Laboratory (DCLab) at the Institute of Technology of Cambodia, currently looking for a Master's degree.
 
-I have been a member of the Dynamics and Control Laboratory (DCLab) since 2023, where I built an autonomous indoor food delivery robot for my thesis and a lookahead-based path tracking system for a swerve-drive robot, now under review at RAAI 2026. I also joined Robocon in 2024 with DCLab’s ITC02 team, and in 2025 I led GEE Lab’s ITC01 team while remaining a DCLab member.
+I earned my Engineer's Degree in Robotics and Automation Engineering at the Institute of Technology of Cambodia in 2026, through the ECAM Engineering double degree program with ECAM LaSalle (France), including an exchange semester in France in 2025. During my studies, I built an autonomous indoor food delivery robot for my thesis and a lookahead-based path tracking system for a three-wheel swerve-drive robot.
 
-My current research focuses on shared control for teleoperated mobile robots under communication delay. I am now looking for a Master’s degree in AI Mobility in Korea, focusing on robot collaboration, autonomous mobile robots and teleoperation.the ECAM Engineering double degree program run by ITC and ECAM LaSalle (France). I have been a member of the Dynamics and Control Laboratory (DCLab) since 2023, where I did my thesis. I joined Robocon in 2024 with DCLab's ITC02 team as an electronics team member, and in 2025 I led GEE Lab's ITC01 team while remaining a DCLab member.
+My research focuses on autonomous mobile robots, with an emphasis on navigation, path tracking and teleoperation. I work on path tracking for holonomic robots, LiDAR-inertial localization with FAST-LIO2, autonomous navigation with Nav2, and shared control for teleoperated mobile robots under communication delay.
 
-I am now looking for a Master's degree in AI Mobility in Korea, focusing on robot collaboration, autonomous mobile robots and teleoperation.
+My recent work includes lookahead-based path tracking for a three-wheel swerve-drive robot (under review at RAAI 2026) and an autonomous indoor food delivery robot (thesis, 2026). I also led GEE Lab's ITC01 team in ABU Robocon 2025, where we built two robots that could dribble, pass, block, shoot and receive.
+
 ## Current work
 
 <div class="section-card" markdown="0">
