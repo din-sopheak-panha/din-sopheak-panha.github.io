@@ -26,8 +26,14 @@ permalink: /
 </a>
 </div>
 
-Autonomous mobile robots are robots that can move and work on their own in places such as buildings, factories and roads. To do this, a robot needs to know where it is, plan a path, follow that path accurately and avoid obstacles. When a robot cannot handle a situation alone, a human can drive it remotely through teleoperation, so the human and the robot work together. This is especially hard when the network is slow, because the commands and the camera or sensor data arrive late. My research focuses on navigation, path tracking and shared control teleoperation for mobile robots, tested both in simulation and on real robots. My goal is to build mobile robots that are reliable and safe to work with people in real environments.
+## About me
+I am a robotics engineer working in the fields of autonomous mobile robots, path tracking and teleoperation. I received my Engineer’s Degree in Robotics and Automation Engineering from the Institute of Technology of Cambodia in 2026, through the ECAM Engineering double degree program with ECAM LaSalle (France).
 
+I have been a member of the Dynamics and Control Laboratory (DCLab) since 2023, where I built an autonomous indoor food delivery robot for my thesis and a lookahead-based path tracking system for a swerve-drive robot, now under review at RAAI 2026. I also joined Robocon in 2024 with DCLab’s ITC02 team, and in 2025 I led GEE Lab’s ITC01 team while remaining a DCLab member.
+
+My current research focuses on shared control for teleoperated mobile robots under communication delay. I am now looking for a Master’s degree in AI Mobility in Korea, focusing on robot collaboration, autonomous mobile robots and teleoperation.the ECAM Engineering double degree program run by ITC and ECAM LaSalle (France). I have been a member of the Dynamics and Control Laboratory (DCLab) since 2023, where I did my thesis. I joined Robocon in 2024 with DCLab's ITC02 team as an electronics team member, and in 2025 I led GEE Lab's ITC01 team while remaining a DCLab member.
+
+I am now looking for a Master's degree in AI Mobility in Korea, focusing on robot collaboration, autonomous mobile robots and teleoperation.
 ## Current work
 
 <div class="section-card" markdown="0">
@@ -58,11 +64,4 @@ Autonomous mobile robots are robots that can move and work on their own in place
 <p style="margin: var(--space-4) 0 0;"><a href="{{ '/achievements' | relative_url }}">All achievements &rarr;</a></p>
 </div>
 
-## About me
-I am a robotics engineer working in the fields of autonomous mobile robots, path tracking and teleoperation. I received my Engineer’s Degree in Robotics and Automation Engineering from the Institute of Technology of Cambodia in 2026, through the ECAM Engineering double degree program with ECAM LaSalle (France).
 
-I have been a member of the Dynamics and Control Laboratory (DCLab) since 2023, where I built an autonomous indoor food delivery robot for my thesis and a lookahead-based path tracking system for a swerve-drive robot, now under review at RAAI 2026. I also joined Robocon in 2024 with DCLab’s ITC02 team, and in 2025 I led GEE Lab’s ITC01 team while remaining a DCLab member.
-
-My current research focuses on shared control for teleoperated mobile robots under communication delay. I am now looking for a Master’s degree in AI Mobility in Korea, focusing on robot collaboration, autonomous mobile robots and teleoperation.the ECAM Engineering double degree program run by ITC and ECAM LaSalle (France). I have been a member of the Dynamics and Control Laboratory (DCLab) since 2023, where I did my thesis. I joined Robocon in 2024 with DCLab's ITC02 team as an electronics team member, and in 2025 I led GEE Lab's ITC01 team while remaining a DCLab member.
-
-I am now looking for a Master's degree in AI Mobility in Korea, focusing on robot collaboration, autonomous mobile robots and teleoperation.
