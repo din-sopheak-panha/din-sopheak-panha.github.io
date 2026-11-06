@@ -29,11 +29,11 @@ permalink: /
 ## About me
 Hello! I am Din Sopheak Panha, a robotics engineer and a member of the Dynamics and Control Laboratory (DCLab) at the Institute of Technology of Cambodia, currently looking for a Master's degree.
 
-I earned my Engineer's Degree in Robotics and Automation Engineering at the Institute of Technology of Cambodia in 2026, through the ECAM Engineering double degree program with ECAM LaSalle (France), including an exchange semester in France in 2025. During my studies, I built an autonomous indoor food delivery robot for my thesis and a lookahead-based path tracking system for a three-wheel swerve-drive robot.
+I earned my Engineer's Degree in Robotics and Automation Engineering at the Institute of Technology of Cambodia in 2026, through the ECAM Engineering double degree program with ECAM LaSalle (France), including an exchange semester in France in 2025. During my studies, I worked on many robotics projects, from mobile robots and robot arms to industrial automation, which you can find on my [Projects]({{ '/projects' | relative_url }}) page.
 
-My research focuses on autonomous mobile robots, with an emphasis on navigation, path tracking and teleoperation. I work on path tracking for holonomic robots, LiDAR-inertial localization with FAST-LIO2, autonomous navigation with Nav2, and shared control for teleoperated mobile robots under communication delay.
+My research interests: autonomous mobile robots, navigation, path tracking, teleoperation, shared control under communication delay, human-robot collaboration.
 
-My recent work includes lookahead-based path tracking for a three-wheel swerve-drive robot (under review at RAAI 2026) and an autonomous indoor food delivery robot (thesis, 2026). I also led GEE Lab's ITC01 team in ABU Robocon 2025, where we built two robots that could dribble, pass, block, shoot and receive.
+My recent work includes [lookahead-based path tracking for a three-wheel swerve-drive robot]({{ '/projects' | relative_url }}) (under review at RAAI 2026) and [an autonomous indoor food delivery robot]({{ '/projects' | relative_url }}) (thesis, 2026). I am currently working on shared control for teleoperated mobile robots under communication delay.
 
 ## Current work
 
