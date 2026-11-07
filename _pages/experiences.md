@@ -71,7 +71,6 @@ permalink: /experiences/
 </div>
 
 ## Robocon
-
 <div class="section-card" markdown="0">
 <h3>ABU Robocon 2025, ITC01 Team (GEE Lab, ITC)</h3>
 <p><b>Date:</b> 2025</p>
