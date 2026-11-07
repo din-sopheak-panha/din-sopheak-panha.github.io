@@ -107,3 +107,14 @@ permalink: /experiences/
 </ul>
 <p><b>Result:</b> Supported the development and testing of the robots' electrical systems for the competition.</p>
 </div>
+
+
+<div class="section-card" markdown="0">
+<h3>AI Farm</h3>
+<p><b>Date:</b> Aug 2023 to Oct 2023</p>
+<p><b>Position:</b> Engineering Intern</p>
+<p><b>Contribution:</b></p>
+<ul>
+<li>Designed closed-loop stepper motor control for a robot arm on STM32, using PID with encoder feedback.</li>
+</ul>
+</div>
