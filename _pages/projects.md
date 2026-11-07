@@ -146,10 +146,15 @@ permalink: /projects/
 <p><b>Date:</b> 2025</p>
 <p><b>Hardware:</b> Google Colab GPU</p>
 <p><b>Software:</b> Python, PyTorch, scikit-learn, NumPy, pandas, Matplotlib</p>
+<p><b>Data:</b> Cambodia Demographic and Health Survey (DHS) household data, preprocessed version from Kaggle (<a href="https://www.kaggle.com/datasets/taniaj/cambodia-preprocessed">taniaj/cambodia-preprocessed</a>), original survey by <a href="https://dhsprogram.com/">The DHS Program</a></p>
 <p><b>Results:</b></p>
 <ul>
 <li>Deep neural network (3 hidden layers) with a tuned threshold: found 82% of malnourished households, F1 0.566, ROC-AUC 0.784.</li>
 <li>Shallow neural network (2 hidden layers): found 76% of malnourished households, F1 0.543, ROC-AUC 0.790.</li>
 <li>K-Means clustering: balanced accuracy 0.50 and Adjusted Rand Index 0.003, so the clusters did not match malnutrition without labels.</li>
 </ul>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
+<img src="/assets/img/malnutrition-roc.png" alt="ROC curve of the shallow and deep neural networks" style="width: 100%; max-width: 420px; border-radius: 8px;" loading="lazy">
+<img src="/assets/img/malnutrition-confusion.png" alt="Confusion matrices of the shallow and deep neural networks" style="width: 100%; border-radius: 8px;" loading="lazy">
+</div>
 </div>
