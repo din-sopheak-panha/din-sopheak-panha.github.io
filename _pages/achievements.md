@@ -21,3 +21,10 @@ permalink: /achievements/
 <li>Robocon 2024, Electronics Team Member</li>
 </ul>
 </div>
+
+<div class="section-card" markdown="0">
+<h3>Memberships</h3>
+<ul>
+<li>Member, Union of Youth Federations of Cambodia (UYFC), since 2026</li>
+</ul>
+</div>
