@@ -159,3 +159,28 @@ permalink: /projects/
 <img src="/images/malnutrition-confusion.png" alt="Confusion matrices of the shallow and deep neural networks" style="width: 100%; border-radius: 8px;" loading="lazy">
 </div>
 </div>
+
+## IoT
+ 
+<div class="section-card" markdown="0">
+<h3>Smart Plant Monitoring and Control</h3>
+<p class="text-muted">Wireless Communication course project, with Te Tikea</p>
+<p>A small IoT system for plants grown at home. An ESP32 reads the temperature, humidity, CO₂ level, soil moisture, water tank level and its own power use every 5 seconds, and publishes them over Wi-Fi with MQTT to a ThingsBoard dashboard. A switch on the dashboard enables automatic watering through RPC: when the soil moisture is below 70% and the tank still has water, the pump runs for 4 seconds at a time.</p>
+<p><b>Status:</b> Done</p>
+<p><b>Date:</b> 2025 to 2026</p>
+<p><b>Hardware:</b> ESP32-WROOM-32D, DHT22 temperature and humidity sensor, SCD41 CO₂ sensor, soil moisture sensor, HC-SR04 ultrasonic sensor for the water tank level, INA226 current and power sensor, relay module with a micro water pump, TP4056 charger with a 3.7 V 2000 mAh lithium battery</p>
+<p><b>Software:</b> C++ (Arduino), MQTT, ThingsBoard Cloud (dashboard, time-series logging, RPC)</p>
+<p><b>Results:</b></p>
+<ul>
+<li>All six readings shown live on the ThingsBoard dashboard every 5 seconds and logged as time-series graphs.</li>
+<li>In a 20-minute indoor test, the CO₂ sensor measured 1025 to 1120 ppm and followed the window being opened and closed.</li>
+<li>Average power of 372.8 mW without the pump, about 19 hours on a 2000 mAh battery and about 2 hours to recharge.</li>
+</ul>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
+<img src="/images/smart-plant-schematic.png" alt="Wiring of the ESP32, sensors, relay, pump and battery" style="width: 100%; border-radius: 8px;" loading="lazy">
+<img src="/images/smart-plant-dashboard.png" alt="ThingsBoard dashboard with live sensor readings and the pump switch" style="width: 100%; border-radius: 8px;" loading="lazy">
+<img src="/images/smart-plant-flowchart.png" alt="Program flowchart from boot to the main loop" style="width: 100%; border-radius: 8px;" loading="lazy">
+<img src="/images/smart-plant-co2.png" alt="CO2 level over a 20-minute indoor test" style="width: 100%; border-radius: 8px;" loading="lazy">
+</div>
+</div>
+
