@@ -52,7 +52,9 @@ nav_pages:
   - name: projects
   - name: achievements
   - name: experiences
-
+  - name: cv
+    label: CV
+    url: /papers/Din_Sopheak_Panha_CV.pdf
 # ============================================================
 # STEP 5: Publications (assets/ref.bib)
 # ============================================================
