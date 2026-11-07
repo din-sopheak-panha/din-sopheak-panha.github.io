@@ -136,3 +136,20 @@ permalink: /projects/
 <iframe src="https://www.youtube-nocookie.com/embed/8rvLOJjhovw" title="Conveyor Sorting System with PLC and HMI" style="width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 </div>
 </div>
+
+## Machine Learning
+
+<div class="section-card" markdown="0">
+<h3>Cambodia Child Malnutrition Prediction with Machine Learning</h3>
+<p>Predicts whether a Cambodian household has child malnutrition from 17 household indicators, such as access to electricity, clean water and sanitation, education, region and urban or rural location, using the Cambodia Demographic and Health Survey (DHS) data of 9,099 households. The data was split 60/20/20 for training, validation and testing, and the models were trained with class weights and early stopping because only about 25% of households are malnourished. Two supervised neural networks were compared with unsupervised K-Means clustering, with PCA to visualize the data.</p>
+<p><b>Status:</b> Done</p>
+<p><b>Date:</b> 2025</p>
+<p><b>Hardware:</b> Google Colab GPU</p>
+<p><b>Software:</b> Python, PyTorch, scikit-learn, NumPy, pandas, Matplotlib</p>
+<p><b>Results:</b></p>
+<ul>
+<li>Deep neural network (3 hidden layers) with a tuned threshold: found 82% of malnourished households, F1 0.566, ROC-AUC 0.784.</li>
+<li>Shallow neural network (2 hidden layers): found 76% of malnourished households, F1 0.543, ROC-AUC 0.790.</li>
+<li>K-Means clustering: balanced accuracy 0.50 and Adjusted Rand Index 0.003, so the clusters did not match malnutrition without labels.</li>
+</ul>
+</div>
