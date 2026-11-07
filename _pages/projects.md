@@ -155,6 +155,7 @@ permalink: /projects/
 </ul>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
 <img src="/assets/img/malnutrition-roc.png" alt="ROC curve of the shallow and deep neural networks" style="width: 100%; max-width: 420px; border-radius: 8px;" loading="lazy">
+<img src="/assets/img/malnutrition-pca.png" alt="PCA plot showing malnourished and not malnourished households overlapping" style="width: 100%; max-width: 420px; border-radius: 8px;" loading="lazy">
 <img src="/assets/img/malnutrition-confusion.png" alt="Confusion matrices of the shallow and deep neural networks" style="width: 100%; border-radius: 8px;" loading="lazy">
 </div>
 </div>
