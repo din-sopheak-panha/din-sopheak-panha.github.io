@@ -83,6 +83,16 @@ permalink: /experiences/
 <li>Assisted in designing DRV-based motor driver PCBs, main controller shield boards for both robots, and a pneumatic control PCB for solenoid valve actuation, and contributed to the integration and testing of the custom CAN-based electronics system.</li>
 </ul>
 <p><b>Result:</b> Both robots were ready to play within the 800 mm footprint and 50 kg weight constraints. The first robot could dribble, block, pass and shoot, and the second robot could shoot, block and receive.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
+<img src="/images/robocon2025-robots.jpg" alt="ITC01 robots, ABU Robocon 2025" style="width: 100%; max-width: 420px; border-radius: 8px;" loading="lazy">
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
+<img src="/images/robocon2025-controller-pcb.jpg" alt="Main controller shield board, ITC01" style="width: 100%; border-radius: 8px;" loading="lazy">
+<img src="/images/robocon2025-motor-driver-pcb.jpg" alt="DRV8701 motor driver board with STM32 and CAN" style="width: 100%; border-radius: 8px;" loading="lazy">
+<img src="/images/robocon2025-pneumatic-pcb.jpg" alt="Pneumatic solenoid valve control board" style="width: 100%; border-radius: 8px;" loading="lazy">
+<img src="/images/robocon2025-power-pcb.jpg" alt="24 V power distribution board" style="width: 100%; border-radius: 8px;" loading="lazy">
+<img src="/images/robocon2025-gamepad-pcb.jpg" alt="Handheld controller board" style="width: 100%; border-radius: 8px;" loading="lazy">
+</div>
 </div>
 
 <div class="section-card" markdown="0">
