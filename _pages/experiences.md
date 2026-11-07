@@ -70,7 +70,6 @@ permalink: /experiences/
 <p><b>Result:</b> Through repeated test and feedback cycles, helped identify and resolve bugs until each issue was solved.</p>
 </div>
 
-## Robocon
 <div class="section-card" markdown="0">
 <h3>ABU Robocon 2025, ITC01 Team (GEE Lab, ITC)</h3>
 <p><b>Date:</b> 2025</p>
@@ -91,6 +90,10 @@ permalink: /experiences/
 <img src="/images/robocon2025-pneumatic-pcb.jpg" alt="Pneumatic solenoid valve control board" style="width: 100%; border-radius: 8px;" loading="lazy">
 <img src="/images/robocon2025-power-pcb.jpg" alt="24 V power distribution board" style="width: 100%; border-radius: 8px;" loading="lazy">
 <img src="/images/robocon2025-gamepad-pcb.jpg" alt="Handheld controller board" style="width: 100%; border-radius: 8px;" loading="lazy">
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
+<iframe src="https://www.youtube-nocookie.com/embed/PEyFnWSA1Q8" title="ABU Robocon 2025, ITC01 team demo" style="width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/fH2yQHRbGQ4" title="ABU Robocon 2025, ITC01 test shot" style="width: 100%; max-width: 315px; aspect-ratio: 9 / 16; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 </div>
 </div>
 
