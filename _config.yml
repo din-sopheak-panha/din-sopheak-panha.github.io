@@ -123,3 +123,15 @@ exclude:
   - vendor
   - .bundle
   - node_modules
+  - _pages/research.md
+  - _pages/software.md
+  - _pages/talks.md
+  - _pages/teaching.md
+  - _pages/team.md
+  - _pages/blog.md
+  - _pages/allnews.md
+  - _posts
+  - images/research
+  - papers/feynman06.pdf
+  - papers/feynman39.pdf
+  - papers/example_proceeding.pdf
