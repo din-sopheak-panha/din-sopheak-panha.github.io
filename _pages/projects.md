@@ -154,8 +154,8 @@ permalink: /projects/
 <li>K-Means clustering: balanced accuracy 0.50 and Adjusted Rand Index 0.003, so the clusters did not match malnutrition without labels.</li>
 </ul>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
-<img src="/assets/img/malnutrition-roc.png" alt="ROC curve of the shallow and deep neural networks" style="width: 100%; max-width: 420px; border-radius: 8px;" loading="lazy">
-<img src="/assets/img/malnutrition-pca.png" alt="PCA plot showing malnourished and not malnourished households overlapping" style="width: 100%; max-width: 420px; border-radius: 8px;" loading="lazy">
-<img src="/assets/img/malnutrition-confusion.png" alt="Confusion matrices of the shallow and deep neural networks" style="width: 100%; border-radius: 8px;" loading="lazy">
+<img src="/images/malnutrition-roc.png" alt="ROC curve of the shallow and deep neural networks" style="width: 100%; max-width: 420px; border-radius: 8px;" loading="lazy">
+<img src="/images/malnutrition-pca.png" alt="PCA plot showing malnourished and not malnourished households overlapping" style="width: 100%; max-width: 420px; border-radius: 8px;" loading="lazy">
+<img src="/images/malnutrition-confusion.png" alt="Confusion matrices of the shallow and deep neural networks" style="width: 100%; border-radius: 8px;" loading="lazy">
 </div>
 </div>
