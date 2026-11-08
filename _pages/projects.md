@@ -60,7 +60,7 @@ permalink: /projects/
 </div>
 
 <div class="section-card" markdown="0">
-<h3>Autonomous Indoor Food Delivery Robot (Thesis)</h3>
+<h3>Autonomous Indoor Delivery Robot (Thesis)</h3>
 <p class="text-muted">DCLab</p>
 <p>Built a differential-drive delivery robot from scratch together with Te Tikea. The robot maps a classroom, localizes, drives to a goal and replans around obstacles that were not in the map.</p>
 <p><b>Status:</b> Done (thesis defended)</p>
@@ -77,11 +77,11 @@ permalink: /projects/
 <img src="https://dinsopheakpanhaportfolio.netlify.app/materials/indoor-delivery-hero.jpg" alt="Indoor delivery robot" style="width: 100%; border-radius: 8px;" loading="lazy">
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-4); margin-top: var(--space-4);">
-<iframe src="https://www.youtube-nocookie.com/embed/rQ5fnVoLUaU" title="Autonomous Food Delivery Robot - Full navigation inside a classroom" style="width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
-<iframe src="https://www.youtube-nocookie.com/embed/7Au0h4lYpns" title="Autonomous Food Delivery Robot" style="width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
-<iframe src="https://www.youtube-nocookie.com/embed/6is34BcX-9I" title="Autonomous Food Delivery Robot - Simulation" style="width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
-<iframe src="https://www.youtube-nocookie.com/embed/9ClcoE87dZw" title="Autonomous Food Delivery Robot" style="width: 100%; max-width: 315px; aspect-ratio: 9 / 16; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
-<iframe src="https://www.youtube-nocookie.com/embed/RdwP9cqwr-o" title="Autonomous Food Delivery Robot" style="width: 100%; max-width: 315px; aspect-ratio: 9 / 16; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/rQ5fnVoLUaU" title="Autonomous Indoor Delivery Robot - Full navigation inside a classroom" style="width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/7Au0h4lYpns" title="Autonomous Indoor Delivery Robot" style="width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/6is34BcX-9I" title="Autonomous Indoor Delivery Robot - Simulation" style="width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/9ClcoE87dZw" title="Autonomous Indoor Delivery Robot" style="width: 100%; max-width: 315px; aspect-ratio: 9 / 16; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/RdwP9cqwr-o" title="Autonomous Indoor Delivery Robot" style="width: 100%; max-width: 315px; aspect-ratio: 9 / 16; border: 0; border-radius: 8px;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
 </div>
 </div>
 
