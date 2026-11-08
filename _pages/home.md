@@ -33,7 +33,7 @@ I earned my Engineer's Degree in Robotics and Automation Engineering at the Inst
 
 My research interests: autonomous mobile robots, navigation, path tracking, teleoperation, shared control under communication delay, human-robot collaboration.
 
-My recent work includes [lookahead-based path tracking for a three-wheel swerve-drive robot]({{ '/projects' | relative_url }}) (under review at RAAI 2026) and [an autonomous indoor food delivery robot]({{ '/projects' | relative_url }}) (thesis, 2026). I am currently working on shared control for teleoperated mobile robots under communication delay.
+My recent work includes [lookahead-based path tracking for a three-wheel swerve-drive robot]({{ '/projects' | relative_url }}) (under review at RAAI 2026) and [an autonomous indoor delivery robot]({{ '/projects' | relative_url }}) (thesis, 2026). I am currently working on shared control for teleoperated mobile robots under communication delay.
 
 ## Current work
 
@@ -64,5 +64,3 @@ My recent work includes [lookahead-based path tracking for a three-wheel swerve-
 </ul>
 <p style="margin: var(--space-4) 0 0;"><a href="{{ '/achievements' | relative_url }}">All achievements &rarr;</a></p>
 </div>
-
-
