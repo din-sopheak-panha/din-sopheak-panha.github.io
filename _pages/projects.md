@@ -37,7 +37,7 @@ permalink: /projects/
 <p class="text-muted">DCLab</p>
 <p>Designed and integrated a lookahead-based path tracking system for a three-wheel swerve-drive robot, so it can follow different paths with one set of parameters instead of retuning PID for x, y and heading.</p>
 <p><b>Status:</b> Done (paper under review at RAAI 2026)</p>
-<p><b>Date:</b> 2025</p>
+<p><b>Date:</b> 2026</p>
 <p><b>Hardware:</b> Three-wheel swerve-drive robot with brushed DC drive and steering motors, three smart DC motor drivers over CAN bus, Livox Mid-360 3D LiDAR with built-in IMU, onboard laptop (MSI Cyborg 15), 12 V and 24 V LiPo batteries</p>
 <p><b>Software:</b> Ubuntu 22.04, ROS 2 Humble, C++, FAST-LIO2, RViz2</p>
 <p><b>Results:</b></p>
