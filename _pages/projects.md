@@ -141,7 +141,7 @@ permalink: /projects/
 
 <div class="section-card" markdown="0">
 <h3>Cambodia Child Malnutrition Prediction with Machine Learning</h3>
-<p>Predicts whether a Cambodian household has child malnutrition from 17 household indicators, such as access to electricity, clean water and sanitation, education, region and urban or rural location, using the Cambodia Demographic and Health Survey (DHS) data of 9,099 households. The data was split 60/20/20 for training, validation and testing, and the models were trained with class weights and early stopping because only about 25% of households are malnourished. Two supervised neural networks were compared with unsupervised K-Means clustering, with PCA to visualize the data.</p>
+<p>Predicts whether a Cambodian household has child malnutrition from 17 household indicators, such as access to electricity, clean water and sanitation, education, region and urban or rural location, using the Cambodia Demographic and Health Survey (DHS) data of 9,099 households. The data was split 60/20/20 for training, validation and testing, and the models were trained with class weights and early stopping because only about 25% of households are malnourished. Two supervised models, a shallow neural network (2 hidden layers) and a deep neural network (3 hidden layers), were compared with one unsupervised model, K-Means clustering, and PCA was used to visualize the data.</p>
 <p><b>Status:</b> Done</p>
 <p><b>Date:</b> 2025</p>
 <p><b>Hardware:</b> Google Colab GPU</p>
