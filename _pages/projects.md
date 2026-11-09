@@ -11,7 +11,7 @@ permalink: /projects/
 <div class="section-card" markdown="0">
 <h3>Shared Control Teleoperation of a Mobile Robot under Communication Delay</h3>
 <p class="text-muted">Independent research</p>
-<p>A mobile robot driven remotely by a human, where the robot helps avoid collisions while the commands and sensor data arrive late. The project builds on the paper "Collision Avoidance with the Novel Advanced Shared Smooth Control in Teleoperated Mobile Robot Vehicles" (Electronics, 2026) and extends its shared control approach to handle delay.</p>
+<p>A mobile robot driven remotely by a human, where the robot helps avoid collisions while the commands and sensor data arrive late. The project builds on the paper "Collision Avoidance with the Novel Advanced Shared Smooth Control in Teleoperated Mobile Robot Vehicles" (Electronics, 2026).</p>
 <p><b>Status:</b> In progress</p>
 <p><b>Date:</b> 2026</p>
 <p><b>Hardware:</b> Simulation only, driven with a PS4 controller</p>
