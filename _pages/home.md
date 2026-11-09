@@ -29,7 +29,7 @@ permalink: /
 ## About me
 Hello! I am Din Sopheak Panha, a robotics engineer and a member of the Dynamics and Control Laboratory (DCLab) at the Institute of Technology of Cambodia, currently looking for a Master's degree.
 
-I earned my Engineer's Degree in Robotics and Automation Engineering at the Institute of Technology of Cambodia in 2026, through the ECAM Engineering double degree program with ECAM LaSalle (France), including an exchange semester in France in 2025. During my studies, I worked on many robotics projects, from mobile robots and robot arms to industrial automation, and machine learning which you can find on my [Projects]({{ '/projects' | relative_url }}) page.
+I earned my Engineer's Degree in Robotics and Automation Engineering from the Department of Industrial and Mechanical Engineering at the Institute of Technology of Cambodia in 2026, through the ECAM Engineering double degree program with ECAM LaSalle (France), including an exchange semester in France in 2025. During my studies, I worked on many robotics projects, from mobile robots and robot arms to industrial automation, and machine learning which you can find on my [Projects]({{ '/projects' | relative_url }}) page.
 
 **My research interests:** autonomous mobile robots, navigation, path tracking, teleoperation, shared control under communication delay, human-robot collaboration.
 
