@@ -60,9 +60,9 @@ permalink: /projects/
 </div>
 
 <div class="section-card" markdown="0">
-<h3>Autonomous Indoor Delivery Robot (Thesis)</h3>
+<h3>Implementation of Nav2 for Autonomous Indoor Delivery Robot (Thesis)</h3>
 <p class="text-muted">DCLab</p>
-<p>Built a differential-drive delivery robot from scratch together with Te Tikea. The robot maps a classroom, localizes, drives to a goal and replans around obstacles that were not in the map.</p>
+<p>Implemented the Nav2 navigation stack on a differential-drive delivery robot together with Te Tikea, with a mechanical body that we designed and 3D printed. The robot maps a classroom, localizes, drives to a goal and replans around obstacles that were not in the map.</p>
 <p><b>Status:</b> Done (thesis defended)</p>
 <p><b>Date:</b> 2026</p>
 <p><b>Hardware:</b> Differential-drive base with hub servo motors, ZLAC8015D motor driver (CANopen), NVIDIA Jetson Orin Nano Super, RPLIDAR A1, Intel RealSense D435, Yahboom IMU, LiPo 6S 10 Ah battery, 7-inch display</p>
