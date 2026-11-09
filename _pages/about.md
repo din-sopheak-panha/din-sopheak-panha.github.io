@@ -35,7 +35,7 @@ permalink: /about/
 <h3>Competitions, Leadership &amp; Memberships</h3>
 <ul>
 <li><b>2026-Present</b>, Member, Union of Youth Federations of Cambodia (UYFC)</li>
-<li><b>2025</b>, Team Leader, ITC01, ABU Robocon 2025, GEE Lab (Electronics Engineering Lab), Institute of Technology of Cambodia.</li>
+<li><b>2025</b>, Team Leader, ITC01, ABU Robocon 2025, Institute of Technology of Cambodia</li>
 <li><b>2024</b>, Electronics Team Member, ITC02, ABU Robocon 2024, Dynamics and Control Laboratory (DCLab), Institute of Technology of Cambodia.</li>
 <li><b>2023-Present</b>, Member, Dynamics and Control Laboratory (DCLab)</li>
 </ul>
