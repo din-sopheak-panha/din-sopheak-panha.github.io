@@ -31,7 +31,7 @@ Hello! I am Din Sopheak Panha, a robotics engineer and a member of the Dynamics 
 
 I earned my Engineer's Degree in Robotics and Automation Engineering at the Institute of Technology of Cambodia in 2026, through the ECAM Engineering double degree program with ECAM LaSalle (France), including an exchange semester in France in 2025. During my studies, I worked on many robotics projects, from mobile robots and robot arms to industrial automation, and machine learning which you can find on my [Projects]({{ '/projects' | relative_url }}) page.
 
-My research interests: autonomous mobile robots, navigation, path tracking, teleoperation, shared control under communication delay, human-robot collaboration.
+**My research interests:** autonomous mobile robots, navigation, path tracking, teleoperation, shared control under communication delay, human-robot collaboration.
 
 My recent work includes [lookahead-based path tracking for a three-wheel swerve-drive robot]({{ '/projects' | relative_url }}) (under review at RAAI 2026) and [an autonomous indoor delivery robot]({{ '/projects' | relative_url }}) (thesis, 2026). I am currently working on shared control for teleoperated mobile robots under communication delay.
 
